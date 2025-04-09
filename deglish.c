@@ -5,6 +5,11 @@
 //
 
 
+// TODO get a better command line, with verbose and stuff. flag.h?
+// TODO if no word is found, find the closest words, Levenshtein distance?
+// TODO make a shell, readline dependency? editline?
+// TODO maybe make it a dictionary for faster access? but its fast enough as is? even in debug mode.
+// TODO cram the english_definitions.utf-8 into the exe, dont wan't this to break when there is no file.
 
 
 #include <stdio.h>
