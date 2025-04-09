@@ -1,3 +1,12 @@
+//
+// deglish.c - command line tool for getting the definition of a word
+//
+// Fletcher M - 09/04/2025
+//
+
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>

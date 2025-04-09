@@ -3,9 +3,9 @@ CC = clang
 CFLAGS = -Wall -Wextra -ggdb -lm -pedantic
 
 main: FORCE
-	$(CC) $(CFLAGS) -o main main.c
+	$(CC) $(CFLAGS) -o deglish deglish.c
 
 clean:
-	rm main
+	rm deglish
 
 FORCE:
