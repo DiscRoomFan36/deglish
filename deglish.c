@@ -4,7 +4,8 @@
 // Fletcher M - 09/04/2025
 //
 
-
+// TODO Make readme
+// TODO factor out parseing the file.
 // TODO get a better command line, with verbose and stuff. flag.h?
 // TODO if no word is found, find the closest words, Levenshtein distance?
 // TODO make a shell, readline dependency? editline?
