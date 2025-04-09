@@ -17,7 +17,7 @@
     do {                                                                                                   \
         if ((da)->count >= (da)->capacity) {                                                               \
             (da)->capacity = (da)->capacity == 0 ? DA_INIT_CAP : (da)->capacity*2;                         \
-            (da)->items = (typeof((da)->items)) realloc((da)->items, (da)->capacity*sizeof(*(da)->items)); \
+            (da)->items = realloc((da)->items, (da)->capacity*sizeof(*(da)->items)); \
             assert((da)->items != NULL && "Buy More RAM lol");                                             \
         }                                                                                                  \
                                                                                                            \
